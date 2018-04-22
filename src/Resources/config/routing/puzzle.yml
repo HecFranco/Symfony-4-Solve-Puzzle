@@ -1,0 +1,4 @@
+app_solve:
+    path: /
+    controller: App\Controller\PuzzleController::solve
+    

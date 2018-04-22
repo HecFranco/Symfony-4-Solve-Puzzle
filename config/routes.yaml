@@ -1,3 +1,5 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+routing_distributed:
+    # loads routes from the given routing files stored in some bundle
+    resource: '..\src\Resources\config\routing\' 
+    type: directory
+
